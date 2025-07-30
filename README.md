@@ -26,15 +26,15 @@
 
 1. Сотрудники
 
-Идентификатор (SERIAL PRIMARY KEY),
-ФИО, VARCHAR(100),
-Дата найма (Date),
-Оклад (DECIMAL 10, 2), оклад_id (INTEGER),
-Должность, VARCHAR(100), должность_id (INTEGER),
-Тип подразделения, VARCHAR(100), код_подразделения_id (INTEGER),
-Структурное подразделение, VARCHAR(100), код_структурного_поразделения_id (INTEGER),
-Филиал, VARCHAR(100), адрес_филиала_id (INTEGER),
-Проект, VARCHAR(100), проект_id (INTEGER)
+- Идентификатор (SERIAL PRIMARY KEY),
+- ФИО, VARCHAR(100),
+- Дата найма (Date),
+- Оклад (DECIMAL 10, 2), оклад_id (INTEGER),
+- Должность, VARCHAR(100), должность_id (INTEGER),
+- Тип подразделения, VARCHAR(100), код_подразделения_id (INTEGER),
+- Структурное подразделение, VARCHAR(100), код_структурного_поразделения_id (INTEGER),
+- Филиал, VARCHAR(100), адрес_филиала_id (INTEGER),
+- Проект, VARCHAR(100), проект_id (INTEGER)
 
 2. Должность
 
